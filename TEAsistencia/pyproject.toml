@@ -1,0 +1,7 @@
+[tool.ruff]
+line-length = 130
+target-version = "py312"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]

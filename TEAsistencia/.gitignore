@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+data/.tags_cache.json
+data/tags_sugeridos.txt
+data/propuestas.txt

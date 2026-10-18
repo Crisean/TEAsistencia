@@ -1,0 +1,319 @@
+// =====================================================================
+// CATÁLOGO DEL ASISTENTE TE · TE Connectivity, planta Data & Devices Hermosillo
+// La entrada 'te-planta-hermosillo' contiene datos REALES (dirección y ubicación en Google Maps).
+// Las demás son PLANTILLAS DE EJEMPLO: responsables, extensiones, ubicaciones internas y horarios
+// marcados con "(ejemplo)" deben reemplazarse por los datos oficiales de la planta antes de usarse.
+// PREGUNTA (opcional): pregunta modelo que aparece como ejemplo en el chat; los temas más consultados salen primero.
+// AUDIENCIA: operador | administrativo | todos
+// Cada entrada empieza con "### id-en-minusculas". Copia data/plantilla_entrada.txt.
+// Después de editar:  python -m app.build_corpus   y haz commit.
+// No registres información confidencial de clientes, productos ni datos personales.
+// =====================================================================
+
+### te-planta-hermosillo
+TITULO: TE Connectivity · Planta Data & Devices Hermosillo
+PUESTO: TE Connectivity
+CATEGORIA: informacion
+AUDIENCIA: todos
+TAGS: direccion, domicilio, ubicacion de la planta, donde queda, como llegar, google maps, parque industrial, hermosillo, te connectivity, data and devices, planta, empresa
+UBICACION: Latitud Oriente Sur 74, Colonia Parque Industrial, C.P. 83175, Hermosillo, Sonora, México
+WEB: https://maps.app.goo.gl/GTqTkmdj6zFkrEfU6
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Cuál es la dirección de la planta?
+--
+La planta de TE Connectivity Data & Devices está en Latitud Oriente Sur 74, Colonia Parque Industrial, C.P. 83175, Hermosillo, Sonora.
+En la planta se fabrican cables y conectores para comunicaciones de alta velocidad; también se ensamblan antenas y se produce cable a granel.
+La planta está junto al centro de logística y distribución de TE en Hermosillo.
+Para llegar usa el enlace de Google Maps de esta ficha. Al llegar, preséntate en la caseta de vigilancia.
+
+### mapa-areas
+TITULO: Mapa y Ubicación de Áreas de la Planta
+PUESTO: Seguridad Patrimonial / Recepción
+CATEGORIA: areas
+AUDIENCIA: todos
+TAGS: mapa, croquis, areas, donde esta, ubicar, localizar, edificio, oficinas, produccion, piso, nave, pasillo, como llego, elevador, banos, sanitarios
+UBICACION: Croquis general en recepción y en cada tablero de comunicación (ejemplo)
+HORARIO: Disponible siempre
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Dónde encuentro el mapa de la planta?
+--
+La planta se divide en: recepción y caseta de acceso, edificio administrativo, nave de producción, almacén, comedor y estacionamiento (ejemplo).
+Edificio administrativo, nivel 1: Recursos Humanos, Nómina y Enfermería. Nivel 2: Sistemas (TI), Calidad y Control de Documentos (ejemplo).
+Nave de producción: líneas de ensamble, Mantenimiento al fondo y Almacén junto a los andenes (ejemplo).
+Hay un croquis con rutas de evacuación y puntos de reunión en cada pasillo. Si no encuentras un área, pregunta en recepción.
+
+### recursos-humanos
+TITULO: Recursos Humanos
+PUESTO: Departamento de Recursos Humanos
+CATEGORIA: rh
+AUDIENCIA: todos
+TAGS: recursos humanos, rh, vacaciones, permiso, entrega de incapacidad, constancia laboral, carta laboral, alta, baja, renuncia, imss, incapacidad, credencial, gafete, contrato, prestaciones, expediente
+RESPONSABLE: Coordinación de RH (ejemplo)
+CORREO: rh.hermosillo@ejemplo.com
+TELEFONO: Ext. 1101 (ejemplo)
+UBICACION: Edificio administrativo, nivel 1, junto a recepción (ejemplo)
+HORARIO: Lunes a viernes, 8:00 a 17:00 (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Cómo solicito mis vacaciones?
+--
+En Recursos Humanos se tramitan vacaciones, permisos, constancias laborales, reposición de gafete y entrega de incapacidades del IMSS.
+Para pedir vacaciones llena el formato de solicitud, fírmalo con tu supervisor y entrégalo en RH con al menos una semana de anticipación (ejemplo).
+Las incapacidades del IMSS se entregan en RH a más tardar el siguiente día hábil.
+Para una constancia laboral, pídela en ventanilla con tu número de empleado.
+
+### nomina
+TITULO: Nómina y Pagos
+PUESTO: Área de Nómina
+CATEGORIA: rh
+AUDIENCIA: todos
+TAGS: nomina, pago, sueldo, recibo de nomina, aclaracion de pago, tiempo extra, horas extra, vales de despensa, fondo de ahorro, descuentos, deposito, tarjeta, aguinaldo, reparto de utilidades
+RESPONSABLE: Analista de Nómina (ejemplo)
+CORREO: nomina.hermosillo@ejemplo.com
+TELEFONO: Ext. 1120 (ejemplo)
+UBICACION: Edificio administrativo, nivel 1, segunda oficina del pasillo de RH (ejemplo)
+HORARIO: Lunes a viernes, 9:00 a 15:00 (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Dónde aclaro un pago de nómina?
+--
+Nómina atiende aclaraciones de pago, tiempo extra no pagado, descuentos, vales de despensa y fondo de ahorro.
+Para una aclaración lleva tu recibo de nómina y tu número de empleado; las aclaraciones se resuelven en el siguiente periodo de pago (ejemplo).
+Tu recibo de nómina está disponible en el portal del empleado o en los quioscos de RH (ejemplo).
+
+### seguridad-higiene
+TITULO: Seguridad e Higiene (EHS)
+PUESTO: Departamento de Seguridad, Salud y Medio Ambiente
+CATEGORIA: seguridad
+AUDIENCIA: todos
+TAGS: seguridad, higiene, ehs, epp, equipo de proteccion, lentes, tapones, guantes, zapatos de seguridad, acto inseguro, condicion insegura, evacuacion, punto de reunion, extintor, brigada, permiso de trabajo, residuos
+RESPONSABLE: Coordinación EHS (ejemplo)
+CORREO: ehs.hermosillo@ejemplo.com
+TELEFONO: Ext. 1300 (ejemplo)
+UBICACION: Nave de producción, oficina junto a la entrada principal de la nave (ejemplo)
+HORARIO: Todos los turnos (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Qué equipo de protección necesito en producción?
+--
+En producción el equipo de protección personal mínimo es: lentes de seguridad, zapato de seguridad y el EPP que indique la hoja de la estación (ejemplo).
+Reporta cualquier acto o condición insegura a tu supervisor o en el buzón de EHS; no corrijas tú mismo un equipo energizado.
+Las rutas de evacuación y los puntos de reunión están marcados en el croquis de cada pasillo. Ante una alarma sigue a los brigadistas.
+Los trabajos en altura, en caliente o con energía peligrosa requieren permiso de trabajo de EHS.
+
+### enfermeria
+TITULO: Enfermería / Servicio Médico
+PUESTO: Servicio Médico de Planta
+CATEGORIA: servicios
+AUDIENCIA: todos
+TAGS: enfermeria, servicio medico, consultorio, doctor, enfermera, primeros auxilios, pase medico, botiquin, lactario
+RESPONSABLE: Servicio Médico (ejemplo)
+TELEFONO: Ext. 1150 (ejemplo)
+UBICACION: Edificio administrativo, nivel 1, al fondo del pasillo de RH (ejemplo)
+HORARIO: Todos los turnos (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Dónde está la enfermería?
+--
+La enfermería da primeros auxilios y atención básica durante todos los turnos (ejemplo).
+Para salir de tu línea pide pase a tu supervisor, salvo que sea una urgencia.
+Las incapacidades del IMSS se entregan después en Recursos Humanos. Este asistente no da orientación médica.
+
+### control-documentos
+TITULO: Control de Documentos (procedimientos e instrucciones de trabajo)
+PUESTO: Control de Documentos · Sistema de Calidad
+CATEGORIA: documentacion
+AUDIENCIA: todos
+TAGS: documentos, documentacion, procedimiento, procedimientos, instruccion de trabajo, hoja de operacion, formato, formatos, sop, manual, politica, version vigente, documento controlado, revision, plantilla
+RESPONSABLE: Control de Documentos (ejemplo)
+CORREO: documentos.hermosillo@ejemplo.com
+TELEFONO: Ext. 1210 (ejemplo)
+UBICACION: Edificio administrativo, nivel 2, área de Calidad (ejemplo)
+HORARIO: Lunes a viernes, 8:00 a 17:00 (ejemplo)
+WEB: Sistema de gestión documental en la intranet (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Dónde consulto un procedimiento o instrucción de trabajo?
+--
+Los procedimientos, instrucciones de trabajo y formatos vigentes se consultan en el sistema de gestión documental de la intranet (ejemplo).
+Usa siempre la versión vigente: una copia impresa sin sello de documento controlado no es válida en la línea.
+Para pedir un cambio a un documento, llena la solicitud de cambio y envíala a Control de Documentos con la aprobación de tu jefe.
+Si una instrucción de trabajo no coincide con lo que se hace en la estación, avisa a tu supervisor o al ingeniero de proceso.
+
+### calidad
+TITULO: Calidad
+PUESTO: Departamento de Calidad
+CATEGORIA: calidad
+AUDIENCIA: todos
+TAGS: calidad, inspeccion, defecto, no conformidad, material rechazado, rechazo, auditoria, cliente, retencion, etiqueta roja, muestra, liberacion, primera pieza, metrologia
+RESPONSABLE: Ingeniería de Calidad (ejemplo)
+CORREO: calidad.hermosillo@ejemplo.com
+TELEFONO: Ext. 1200 (ejemplo)
+UBICACION: Edificio administrativo, nivel 2; laboratorio de metrología dentro de la nave (ejemplo)
+HORARIO: Todos los turnos (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Qué hago si encuentro material defectuoso?
+--
+Si encuentras material defectuoso, sepáralo, identifícalo con etiqueta roja de retención y avisa al inspector de calidad de tu área (ejemplo).
+La liberación de primera pieza la hace Calidad antes de arrancar la producción de cada orden.
+Las auditorías de cliente y de sistema se anuncian en los tableros de comunicación.
+
+### control-esd
+TITULO: Control de Descargas Electrostáticas (ESD)
+PUESTO: Ingeniería de Procesos / Calidad
+CATEGORIA: procedimientos
+AUDIENCIA: operador
+TAGS: esd, estatica, descarga electrostatica, pulsera, muñequera, bata, talonera, tapete, verificacion de pulsera, area protegida, epa
+RESPONSABLE: Coordinador ESD (ejemplo)
+TELEFONO: Ext. 1230 (ejemplo)
+UBICACION: Estación de verificación ESD a la entrada de la nave (ejemplo)
+HORARIO: Todos los turnos
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Cómo verifico mi pulsera ESD?
+--
+Antes de entrar al área protegida ESD usa bata, pulsera o taloneras y verifica tu pulsera en el probador de la entrada (ejemplo).
+Si el probador marca falla, no entres: cambia la pulsera en el almacén o avisa a tu supervisor.
+Registra la verificación en la bitácora de tu turno. Nunca toques componentes sin protección ESD.
+
+### sistemas-ti
+TITULO: Sistemas / Soporte de TI
+PUESTO: Departamento de Tecnologías de la Información
+CATEGORIA: tecnologia
+AUDIENCIA: todos
+TAGS: sistemas, ti, soporte, contraseña, password, correo, cuenta, usuario bloqueado, impresora, computadora, wifi, internet, red, acceso, intranet, ticket, mesa de ayuda
+RESPONSABLE: Mesa de ayuda de TI (ejemplo)
+CORREO: soporte.ti.hermosillo@ejemplo.com
+TELEFONO: Ext. 1400 (ejemplo)
+UBICACION: Edificio administrativo, nivel 2, al final del pasillo (ejemplo)
+HORARIO: Lunes a viernes, 7:00 a 19:00 (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: Olvidé mi contraseña de sistemas
+--
+Para restablecer tu contraseña o desbloquear tu usuario abre un ticket en la mesa de ayuda o acude a Sistemas con tu gafete (ejemplo).
+Las fallas de impresoras, computadoras de línea y red también se reportan con un ticket.
+Nunca compartas tu contraseña; TI nunca te la pedirá por correo ni por teléfono.
+
+### capacitacion
+TITULO: Capacitación y Entrenamiento
+PUESTO: Departamento de Capacitación
+CATEGORIA: rh
+AUDIENCIA: todos
+TAGS: capacitacion, entrenamiento, curso, cursos, induccion, certificacion, certificacion de operador, constancia dc3, dc-3, habilidades, matriz de habilidades, entrenador, sala de capacitacion
+RESPONSABLE: Coordinación de Capacitación (ejemplo)
+CORREO: capacitacion.hermosillo@ejemplo.com
+TELEFONO: Ext. 1130 (ejemplo)
+UBICACION: Edificio administrativo, nivel 1, sala de capacitación (ejemplo)
+HORARIO: Lunes a viernes, 7:00 a 16:00 (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Cómo me certifico en una estación?
+--
+El personal de nuevo ingreso toma la inducción de seguridad, calidad y ESD antes de entrar a la línea (ejemplo).
+Para certificarte en una estación necesitas el entrenamiento con un entrenador certificado y la evaluación práctica; queda registrado en la matriz de habilidades.
+Las constancias DC-3 se solicitan en Capacitación al terminar el curso.
+
+### comedor
+TITULO: Comedor
+PUESTO: Servicio de Comedor
+CATEGORIA: servicios
+AUDIENCIA: todos
+TAGS: comedor, comida, desayuno, cena, menu, cafeteria, horario de comida, comer, alimentos, microondas
+RESPONSABLE: Proveedor de comedor (ejemplo)
+TELEFONO: Ext. 1500 (ejemplo)
+UBICACION: Edificio de servicios, junto al estacionamiento de personal (ejemplo)
+HORARIO: Primer turno 11:00 a 13:30; segundo turno 19:00 a 21:00; tercer turno 2:00 a 3:30 (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Cuál es el horario del comedor?
+--
+El comedor sirve desayuno y comida para cada turno; el menú semanal se publica en el tablero de entrada (ejemplo).
+Respeta el horario de comida asignado a tu línea. Se paga con descuento vía nómina presentando tu gafete (ejemplo).
+
+### transporte-personal
+TITULO: Transporte de Personal
+PUESTO: Recursos Humanos · Transporte
+CATEGORIA: servicios
+AUDIENCIA: operador
+TAGS: transporte, camion, autobus, ruta, rutas, parada, horario del camion, salida, entrada de turno, servicio de transporte
+UBICACION: Andén de transporte, frente a la caseta de vigilancia (ejemplo)
+HORARIO: Llega 20 minutos antes de cada entrada de turno y sale 10 minutos después de cada salida (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Qué ruta de camión me toca?
+--
+Las rutas de transporte y sus paradas se publican en el tablero de RH y se asignan según tu colonia (ejemplo).
+Para cambiar de ruta solicita el cambio en Recursos Humanos. Sube al camión con tu gafete visible.
+
+### seguridad-patrimonial
+TITULO: Caseta de Vigilancia y Seguridad Patrimonial
+PUESTO: Seguridad Patrimonial
+CATEGORIA: areas
+AUDIENCIA: todos
+TAGS: caseta, vigilancia, guardia, acceso, entrada, gafete olvidado, visitas, visitante, proveedor, estacionamiento, objetos perdidos, revision, lockers, casilleros, celular
+RESPONSABLE: Jefe de Seguridad Patrimonial (ejemplo)
+TELEFONO: Ext. 1000 (ejemplo)
+UBICACION: Caseta principal en la entrada de Latitud Oriente Sur (ejemplo)
+HORARIO: 24 horas, todos los días
+ACTUALIZADO: 2026-10-17
+PREGUNTA: Olvidé mi gafete, ¿cómo entro?
+--
+Si olvidaste tu gafete, en la caseta te dan un pase temporal del día presentando identificación oficial (ejemplo).
+Las visitas y proveedores se registran en la caseta y deben ser recibidos por la persona que los invitó.
+Los objetos perdidos se reportan y se reclaman en la caseta. Respeta las reglas de uso de celular en producción.
+
+### almacen
+TITULO: Almacén y Entrega de Materiales
+PUESTO: Almacén
+CATEGORIA: areas
+AUDIENCIA: todos
+TAGS: almacen, materiales, requisicion, surtido, refacciones, consumibles, epp nuevo, cambio de epp, guantes, material de linea, recibo, andenes, embarques
+RESPONSABLE: Supervisor de Almacén (ejemplo)
+TELEFONO: Ext. 1600 (ejemplo)
+UBICACION: Nave de producción, junto a los andenes de recibo (ejemplo)
+HORARIO: Todos los turnos (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Dónde pido material o cambio de EPP?
+--
+El material de línea se surte con una requisición autorizada por tu supervisor (ejemplo).
+El cambio de EPP desgastado (guantes, lentes, pulseras ESD) se pide en la ventanilla del almacén entregando la pieza usada.
+
+### mantenimiento
+TITULO: Mantenimiento
+PUESTO: Departamento de Mantenimiento
+CATEGORIA: areas
+AUDIENCIA: todos
+TAGS: mantenimiento, falla, maquina, equipo descompuesto, orden de trabajo, reparacion, tecnico, aire acondicionado, fuga, iluminacion, preventivo, paro de linea
+RESPONSABLE: Supervisor de Mantenimiento (ejemplo)
+TELEFONO: Ext. 1700 (ejemplo)
+UBICACION: Nave de producción, taller de mantenimiento al fondo (ejemplo)
+HORARIO: Todos los turnos (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Cómo reporto una máquina descompuesta?
+--
+Si un equipo falla, detenlo de forma segura, avisa a tu supervisor y levanta una orden de trabajo de mantenimiento (ejemplo).
+Para fallas que detienen la línea llama directamente a la extensión de mantenimiento.
+No abras guardas ni intentes reparar equipo: eso lo hace solo personal autorizado con bloqueo y etiquetado.
+
+### compras-requisiciones
+TITULO: Compras y Requisiciones
+PUESTO: Departamento de Compras
+CATEGORIA: procedimientos
+AUDIENCIA: administrativo
+TAGS: compras, requisicion de compra, orden de compra, proveedor, cotizacion, alta de proveedor, presupuesto, centro de costos, aprobacion
+RESPONSABLE: Comprador de planta (ejemplo)
+CORREO: compras.hermosillo@ejemplo.com
+TELEFONO: Ext. 1800 (ejemplo)
+UBICACION: Edificio administrativo, nivel 2 (ejemplo)
+HORARIO: Lunes a viernes, 8:00 a 17:00 (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Cómo levanto una requisición de compra?
+--
+Las requisiciones de compra se capturan en el sistema con centro de costos y la aprobación de tu gerente (ejemplo).
+Para dar de alta un proveedor nuevo, envía a Compras sus datos fiscales y la cotización.
+
+### etica-cumplimiento
+TITULO: Ética y Cumplimiento
+PUESTO: Recursos Humanos · Ética
+CATEGORIA: rh
+AUDIENCIA: todos
+TAGS: etica, codigo de conducta, cumplimiento, reporte confidencial, linea de etica, acoso, conflicto de interes, regalos, represalias, queja
+RESPONSABLE: Representante de Ética de la planta (ejemplo)
+UBICACION: Recursos Humanos, edificio administrativo (ejemplo)
+ACTUALIZADO: 2026-10-17
+PREGUNTA: ¿Cómo hago un reporte confidencial?
+--
+Puedes reportar dudas o posibles faltas al código de conducta con Recursos Humanos o por el canal de ética de la empresa, de forma confidencial (ejemplo).
+La empresa prohíbe las represalias contra quien reporta de buena fe.
+Consulta el código de conducta en la intranet antes de aceptar regalos o atenciones de proveedores.

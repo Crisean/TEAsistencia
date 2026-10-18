@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: te-asistente
+    runtime: python
+    plan: free            # verifica los límites vigentes del plan
+    region: oregon        # la más cercana a Hermosillo entre las regiones de Render
+    buildCommand: pip install -r requirements.txt && python -m app.build_corpus --check
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.8"
+      - key: APP_NAME
+        value: Asistente TE
+      - key: TIMEZONE
+        value: America/Hermosillo
+      - key: LLM_PROVIDER
+        value: anthropic
+      - key: LLM_API_KEY
+        sync: false
+      - key: ADMIN_TOKEN
+        generateValue: true
+      - key: ID_SALT
+        generateValue: true
+      - key: GITHUB_TOKEN        # opcional: permite publicar el catálogo desde /admin
+        sync: false
+      - key: GITHUB_REPO
+        sync: false
+      - key: GITHUB_BRANCH
+        value: main

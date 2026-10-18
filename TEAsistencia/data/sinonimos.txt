@@ -1,0 +1,23 @@
+// Un grupo por línea: palabras que significan lo mismo para el usuario (palabras sueltas, sin acentos).
+// Se aplica solo a la consulta, no cambia los documentos. Edita a mano.
+vacaciones, descanso
+permiso, ausencia, faltar
+nomina, sueldo, pago, quincena, raya
+recibo, comprobante, talon
+gafete, credencial, identificacion, tarjeta
+contraseña, password, clave
+sistemas, ti, informatica, computo
+procedimiento, instruccion, sop, manual, documento
+formato, plantilla
+epp, proteccion, lentes, guantes, tapones
+esd, estatica, electrostatica, pulsera, munequera
+enfermeria, doctor, medico, consultorio, enfermera
+comedor, comida, cafeteria, cocina
+camion, transporte, autobus, ruta, raite
+caseta, vigilancia, guardia, porteria
+mantenimiento, reparacion, descompuesto, falla, averia
+capacitacion, entrenamiento, curso, induccion
+calidad, inspeccion, defecto, rechazo
+almacen, bodega, surtido
+mapa, croquis, plano
+banos, sanitarios, bano

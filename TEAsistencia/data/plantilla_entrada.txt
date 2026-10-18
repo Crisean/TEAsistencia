@@ -1,0 +1,17 @@
+### id-del-area-o-documento
+TITULO: Nombre del área, procedimiento o servicio
+PUESTO: Departamento o puesto responsable
+CATEGORIA: areas | documentacion | procedimientos | seguridad | calidad | servicios | tecnologia | rh | informacion
+AUDIENCIA: todos            (o: operador / administrativo)
+TAGS: palabras que escribiría el personal, sinónimos coloquiales, sin acentos, separadas por comas
+RESPONSABLE: Nombre o puesto
+CORREO: area.hermosillo@ejemplo.com
+TELEFONO: Ext. 0000
+UBICACION: Edificio, piso y punto de referencia (ej.: nave de producción, junto a la línea 5)
+HORARIO: Lunes a viernes, 8:00 a 17:00
+WEB: enlace a la intranet o al documento controlado
+ACTUALIZADO: AAAA-MM-DD
+PREGUNTA: ¿Pregunta corta y natural que haría el personal?
+--
+Frases cortas y literales: qué es, qué llevar, pasos y qué puede variar.
+No incluyas datos personales ni información confidencial de clientes o productos.
